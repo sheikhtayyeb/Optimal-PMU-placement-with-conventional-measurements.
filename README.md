@@ -8,6 +8,6 @@ The monitoring of power grids is an important diagnostic task. This is effective
 When considering the conventional measurements, the optimal placement of PMUs can be formulated as a problem of integer linear programming.
 
                                                            minimize Σ Xk
-                                                           subject to : 𝑻𝒄𝒐𝒏*𝑷* 𝑻pmu*𝑿 ≥  𝒃𝒄𝒐𝒏 
+                                              subject to : 𝑻𝒄𝒐𝒏*𝑷* 𝑻pmu*𝑿 ≥  𝒃𝒄𝒐𝒏 
                                                            X= [𝑥1 𝑥2 …𝑥𝑁]𝑇
                                                            Xk ∈ {0,1} : PMU placement variable  
